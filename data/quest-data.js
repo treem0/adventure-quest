@@ -94,6 +94,9 @@ const rainbow = {
 
     }]
 };
+
+const quests = [dwarf, dragon, rainbow];
+
    
 export default quests;
     
