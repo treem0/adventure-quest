@@ -1,1 +1,1 @@
-import './example.test.js';
+import '../test/make-user-test.js';

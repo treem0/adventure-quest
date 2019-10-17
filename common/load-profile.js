@@ -13,7 +13,7 @@ function loadProfile() {
     }
 
     name.textContent = user.name;
-    avatar.src = '../assets/avatars' + user.class + '.png';
+    avatar.src = '../assets/avatars/' + user.class + '.png';
     gold.textContent = user.gold;
     hp.textContent = user.hp;
 }

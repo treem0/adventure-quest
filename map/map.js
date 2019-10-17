@@ -1,3 +1,3 @@
-import loadProfile from '../common/load-profile';
+import loadProfile from '../common/load-profile.js';
 
 loadProfile();

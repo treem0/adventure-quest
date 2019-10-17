@@ -25,7 +25,7 @@ p {
 
 img:hover {
     border: solid;
-    border-color: darkcyan;
+    border-color: rgb(102, 31, 31);
 }
 
 main {
