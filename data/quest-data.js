@@ -19,7 +19,7 @@ const dwarf = {
         id: 'fight',
         description: 'FIIIGHT EM!',
         result: 'The dwarf jabs you with their hammer barely scraping your side. Knowing the dwarfs weakness you jump over their head and before they have time to turn around you stab them in the back. You take all of their gold and get away safe.',
-        hp: -5,
+        hp: -10,
         gold: 100
     }, {
         id: 'run',
@@ -45,13 +45,13 @@ const dragon = {
         id: 'distract',
         description: 'Try and distract the dragon!',
         result: 'Knowing the dragon loves gold just as much as Smaug, you throw a 5 gold coins to the left and dart for the gold pile to the right. The dragon is too smart to go for such a little amount of gold and goes for you. The dragon tails whips you and you fly accross the room, losing 20 hp.',
-        hp: -20,
+        hp: -25,
         gold: -5
     }, {
         id: 'fight',
         description: 'FIIIGHT EM!',
         result: 'The dragon shoots a spray of fire towards your direction as you counter jump to the left and dodge the hot flames after losing 20 hp. The dragon quickly comes back with a tail whip, but you jump on its tail and run up the dragons back. You get to the dragons head and stab it, taking them down.',
-        hp: -20,
+        hp: -25,
         gold: 500
     }, {
         id: 'run',

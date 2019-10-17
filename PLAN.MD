@@ -1,6 +1,6 @@
 Types of Characters:
 1. Ranger
-2. Wizard
+2. Necromancer
 3. Sorcerer 
 4. Warrior
 
