@@ -5,8 +5,8 @@
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 80vw;
-    height: calc(80vw * 642 / 900);
+    width: 60vw;
+    height: calc(60vw * 642 / 900);
     margin: auto;
 }
 .quest {
