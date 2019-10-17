@@ -5,7 +5,7 @@ const dwarf = {
         top: '70%',
         left: '10%'
     },
-    image: '.jpg',
+    image: 'dwarf.png',
     audio: '.wav',
     action: '.wav',
     description: 'You enter the angry dwarfs den and are confronted with a huge dwarf who is looking for his human slave. What do you do?',
@@ -37,7 +37,7 @@ const dragon = {
         top: '10%',
         left: '90%'
     },
-    image: '.jpg',
+    image: 'dragon.png',
     audio: '.wav',
     action: '.wav',
     description: 'You enter the massive dragon nest looking for a huge pile of gold. The dragon appears angry and looks hungry. What do you do?',
@@ -69,7 +69,7 @@ const rainbow = {
         top: '80%',
         left: '40%'
     },
-    image: '.jpg',
+    image: 'unicorn.png',
     audio: '.wav',
     action: '.wav',
     description: 'You enter the colorful and magical place that is rainbow road. You see happy flowers and unicorns running around the colorful ponds. You see a pile of gold at the opposite end of the road and start to walk towards. All of a sudden a happy unicorn starts charging at you with its fierce teeth showing',
