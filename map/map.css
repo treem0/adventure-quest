@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker|Shadows+Into+Light+Two&display=swap');
 
+Html, body {
+	Height: 100%;
+    Margin: 0;
+    background-color: rgb(117, 151, 151);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    font-family: 'Kalam', cursive;
+    display: flex;
+    justify-content: center;
+}
+
 #quests {
     background-image: url(/assets/map.jpg);
     position: relative;

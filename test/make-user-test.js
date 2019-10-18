@@ -1,10 +1,11 @@
 // IMPORT MODULES under test here:
 // import example from '../src/example.js';
 import makeUser from '../home/make-user.js';
-
 const test = QUnit.test;
 
-test('creates a user from the form data', function(assert) {
+QUnit.module('make user');
+
+test('creates a user from the form data', (assert) => {
     //Arrange
     // Set up your parameters and expectations
     const formData = new FormData();
@@ -23,5 +24,5 @@ test('creates a user from the form data', function(assert) {
     const user = makeUser(formData);
     //Assert
     // Make assertions about what is expected valid result
-    assert.equal(user, expected);
+    assert.deepEqual(user, expected);
 });
