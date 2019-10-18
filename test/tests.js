@@ -1,1 +1,1 @@
-import '../test/make-user-test.js';
+import '../test/get-by-id-test.js';

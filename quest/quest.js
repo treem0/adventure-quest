@@ -3,6 +3,7 @@ import { getUser, saveUser } from '../data/api.js';
 import quests from '../data/quest-data.js';
 import createChoice from './create-choice.js';
 import getById from '../common/get-by-id.js';
+import scoreQuest from './score-quest.js';
 
 loadProfile();
 
@@ -10,9 +11,9 @@ const searchParams = new URLSearchParams(window.location.search);
 const questId = searchParams.get('id');
 const quest = getById(quests, questId);
 
-if (!quest) {
-    window.location = '../map';
-}
+// if (!quest) {
+//     window.location = '../map';
+// }
 
 const title = document.getElementById('title');
 const image = document.getElementById('image');
@@ -35,10 +36,20 @@ for (let i = 0; i < quest.choices.length; i++) {
 choiceForm.addEventListener('sumbit', function(event) {
     event.preventDefault();
 
+    
     const formData = new FormData(choiceForm);
     const choiceId = formData.get('choice');
     const choice = getById(quest.choices, choiceId);
 
     const user = getUser();
+
+    scoreQuest(choice, quest.id, user);
+    saveUser(user);
+
+    choiceForm.classList.add('hidden');
+    result.classList.remove('hidden');
+    resultDescription.textContent = choice.result;
+
+    loadProfile();
 
 });
