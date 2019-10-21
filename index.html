@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <title>Adventure Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>Adventure Quest</h1>
+    </header>
+
+    <main>
+        <h2>Start Your Adventure, You!</h2>
+        <form id="user-sign-up">
+            <p class="text-prompt">
+                <label for="name">What is Your Adventurer Name:</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset class="align-center">
+                <legend>Pick Your Class:</legend>
+                <p id="avatars">
+                    <label>
+                        <input type="radio" name="class" required value="ranger">
+                        <img src="/assets/avatars/ranger.png">
+                        Ranger
+                    </label>
+                    <label>
+                        <input type="radio" name="class" required value="necromancer">
+                        <img src="/assets/avatars/necromancer.png">
+                            Necromancer
+                    </label>
+                    <label>
+                        <input type="radio" name="class" required value="sorcerer">
+                        <img src="/assets/avatars/sorcerer.png">
+                            Sorcerer
+                    </label>
+                    <label>
+                        <input type="radio" name="class" required value="warrior">
+                        <img src="/assets/avatars/warrior.png">
+                            Warrior
+                    </label>
+                </p>
+            </fieldset>
+            <button>Start Your Adventure!</button>
+        </form>
+    </main>
+    
+    <footer>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+
+    <script type="module" src="/home/home.js"></script>
+</body>
+
+</html>
